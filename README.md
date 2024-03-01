@@ -25,16 +25,19 @@ GIT - система контроля версий проекта
 git clone https://github.com/TatianaLoskutova/TrainingSysyem
 
 cd trainingsystem
+
 2) Создать и активировать виртуальное окружение:
 
 python -m venv venv
 
 venv/Scripts/activate
+
 3) Установить зависимости из файла requirements.txt:
 
 python -m pip install --upgrade pip
 
 pip install -r requirements.txt
+
 4) Выполнить миграции:
 
 python manage.py migrate
